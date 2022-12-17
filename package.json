@@ -6,11 +6,12 @@
   "main": "index.html",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "react-neon": "^0.6.4",
     "sass": "1.23.7"
   },
   "devDependencies": {
